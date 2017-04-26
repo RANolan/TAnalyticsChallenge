@@ -134,10 +134,19 @@ def main(argv):
         return temp
 
 
-    print "January: ", convert_id_to_name(Jan.most_common(10))
-    print "February" , convert_id_to_name(Feb.most_common(10))
-    #print Mar.most_common(10)
-
+    print "January: ", convert_id_to_name(Jan.most_common(10)), "\n"
+    print "February" , convert_id_to_name(Feb.most_common(10)), "\n"
+    print "March: ", convert_id_to_name(Mar.most_common(10)), "\n"
+    print "April: ", convert_id_to_name(Apr.most_common(10)), "\n"
+    print "May: ", convert_id_to_name(May.most_common(10)), "\n"
+    print "June: ", convert_id_to_name(Jun.most_common(10)), "\n"
+    print "July: ", convert_id_to_name(Jul.most_common(10)), "\n"
+    print "August: ", convert_id_to_name(Aug.most_common(10)), "\n"
+    print "September: ", convert_id_to_name(Ocb.most_common(10)), "\n"
+    print "October: ", convert_id_to_name(Sep.most_common(10)), "\n"
+    print "November: ", convert_id_to_name(Nov.most_common(10)), "\n"
+    print "December: ", convert_id_to_name(Dec.most_common(10)), "\n"
+    
 # begin gracefully
 #
 if __name__ == "__main__":
