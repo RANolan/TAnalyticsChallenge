@@ -156,7 +156,7 @@ def main(argv):
             writer.writerow([m_name])
             writer.writerow(["Product_Name","Total_Num_Sales","Percent_of_Months_Sales"])
   
-            for lists in convert_id_to_name(Jan.most_common(10),sum(Jan.values())):
+            for lists in month_iter:
                 writer.writerow(lists)
             writer.writerow([" "])
 
